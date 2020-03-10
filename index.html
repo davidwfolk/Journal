@@ -10,50 +10,57 @@
   <img src="Weekly Journal (1).png" alt="Boise CodeWorks Journal"></img>
 </head>
 <body>
-  <div class="side-nav">
-    <button class="Week">Week 1</button>
-    <button class="Week">Week 2</button>
-    <button class="Week">Week 3</button>
-    <button class="Week">Week 4</button>
-    <button class="Week">Week 5</button>
-    <button class="Week">Week 6</button>
-    <button class="Week">Week 7</button>
-    <button class="Week">Week 8</button>
-    <button class="Week">Week 9</button>
-    <button class="Week">Week 10</button>
-    <button class="Week">Week 11</button>
-    <button class="Week">Week 12</button>
-  </div>
-  <h1 class="weeks"><u>CodeWorks Week 1</u></h1>
-  <div>
-    <h1 class="points">What I've learned this this:</h1>
-      <h3 class="answer">1) Thus far it's been a pleasant review to refresh what I've "learned" from the Udemy intro.  As for now, it's all about practice and experience, but I'm confident I'll get there.
-        <br>
-        <br>
-        2) 
-  
-      </h3>
-  </div>
-  
-  <div>
-    <h2 class="points">Week 1 Challenges:</h2>
-    <h3 class="answer">1) My biggest challenge this week is conscious incompetence.  I am quite aware of what I don't know -- which is a lot!
-      <br>
-      <br>
-      2) My other challenge this week is transfering information to long term memory.  I know what I want to do and know that I've seen how it's done, but can't seem to recall the information when I need it.
-    </h3>
-  </div>
-  
-  <div>
-    <h2 class ="points">What I'm looking forward to learning:</h2>
-    <h3 class="answer">1) My first goal is to become more proficient in JavaScript.  It's been quite a learning curve thus far and am looking forward to learning the language and utilize it within web development
-      <br>
-      <br>
-        2) I'm excited to learn how to connect front end web development with the backend.  While it's a large task, I'm confident the end result will feel victorious.
-        <br>
-    </h3>
-  </div>
-  
-  
+  <main>
+    <section class="flexbox-buttons">
+      <div class="side-container">
+        <div class="side-nav">
+          <button class="Week" onclick="week1()">Week 1</button>
+          <button class="Week">Week 2</button>
+          <button class="Week">Week 3</button>
+          <button class="Week">Week 4</button>
+          <button class="Week">Week 5</button>
+          <button class="Week">Week 6</button>
+          <button class="Week">Week 7</button>
+          <button class="Week">Week 8</button>
+          <button class="Week">Week 9</button>
+          <button class="Week">Week 10</button>
+          <button class="Week">Week 11</button>
+          <button class="Week">Week 12</button>
+        </div>
+      </div>
+    </section>
+    
+    <Section id="weekly" class="flexbox-weeks">
+      <div id="week-1" class="">
+        <h1 class="weeks"><u>CodeWorks Week 1</u></h1>
+        <div>
+          <h2 class="points">What I've learned this week:</h1>
+            <h3 class="answer">1) Thus far it's been a pleasant review to refresh what I've "learned" from the Udemy intro.  As for now, it's all about practice and experience, but I'm confident I'll get there.
+              <br>
+              
+            </h3>
+          </div>
+          
+        <div>
+          <h2 class="points">Week 1 Challenges:</h2>
+          <h3 class="answer">1) My biggest challenge this week is conscious incompetence.  I am quite aware of what I don't know -- which is a lot!
+            <br>
+            <br>
+            2) My other challenge this week is transfering information to long term memory.  I know what I want to do and know that I've seen how it's done, but can't seem to recall the information when I need it.
+          </h3>
+        </div>
+        
+        <div>
+          <h2 class ="points">What I'm looking forward to learning:</h2>
+          <h3 class="answer">1) My first goal is to become more proficient in JavaScript.  It's been quite a learning curve thus far and am looking forward to learning the language and utilize it within web development
+            <br>
+            <br>
+              2) I'm excited to learn how to connect front end web development with the backend.  While it's a large task, I'm confident the end result will feel victorious.
+              <br>
+          </h3>
+        </div>
+      </div>
+    </Section>  
+</main>
 </body>
 </html>
