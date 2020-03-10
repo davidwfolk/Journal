@@ -32,6 +32,8 @@ header{
 
 .weeks{
   color: var(--title-color);
+  font-size: 3rem;
+  font-weight: normal;
 }
 
 .points{
@@ -42,14 +44,6 @@ header{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.side-container{
-  height: 100vh;
-  justify-content: flex-end;
-  display: flex;
-  background-color: var(--text-color1);
-  padding: .8rem;
-
-}
 
 button{
   background-color: var(--primary);
@@ -75,14 +69,20 @@ button{
 
 .main {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
 }
 
 .flexbox-buttons {
-  width: 20%;
+  width: 10%;
+  
+}
 
+.side-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .flexbox-weeks {
-  width: 80%;
+  width: 90%;
 }
