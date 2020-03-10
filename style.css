@@ -40,3 +40,8 @@ header{
 .answer{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+.game-container{
+  height: 300px;
+  align-self: flex-end;
+}
